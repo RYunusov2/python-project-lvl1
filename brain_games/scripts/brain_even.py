@@ -12,19 +12,20 @@ def even_game():
     while n <= 3:
         number = randint(0, 100)
         print('Question:', number)
-        answer = prompt.string('Your answer: ')
+        ans = prompt.string('Your answer: ')
         if number % 2 == 0:
-            correct_answer = 'yes'
+            cor_ans = 'yes'
         else:
-            correct_answer = 'no'
-        if answer == correct_answer:
+            cor_ans = 'no'
+        if ans == cor_ans:
             print('Correct!')
             n += 1
             if n == 4:
                 print('Congratulations, ' + name + '!')
                 return()
         else:
-            print("'" + answer + "'" + " is wrong answer ;(. Correct answer was " + "'" + correct_answer + "'.")
+            text = ' is wrong answer ;(. Correct answer was '
+            print("'" + ans + "'" + text + "'" + cor_ans + "'.")
             print("Let's try again, " + name + "!")
             return()
 
