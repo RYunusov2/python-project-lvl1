@@ -4,4 +4,4 @@
 
 [![example workflow](https://github.com/RYunusov2/python-project-lvl1/workflows/Python%20CI/badge.svg)](https://github.com/RYunusov2/python-project-lvl1/actions)
 
-<a href="https://asciinema.org/a/FHtFnawAR1h2WAV933NG762Bj" target="_blank"><img src="https://asciinema.org/a/FHtFnawAR1h2WAV933NG762Bj.svg" /></a>
+[![asciicast](https://asciinema.org/a/FHtFnawAR1h2WAV933NG762Bj.svg)](https://asciinema.org/a/FHtFnawAR1h2WAV933NG762Bj)
