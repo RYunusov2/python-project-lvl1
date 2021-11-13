@@ -9,7 +9,7 @@ def even_game(name):
     n = 1
     while n <= 3:
         number = randint(0, 100)
-        print('Question:', number)
+        print('Question: ' + str(number))
         if number % 2 == 0:
             cor_ans = 'yes'
         else:

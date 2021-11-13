@@ -12,7 +12,7 @@ def calc_game(name):
         number_one = randint(0, 10)
         number_two = randint(0, 10)
         op = choice(seq)
-        print('Question:', str(number_one) + ' ' + op + ' ' + str(number_two))
+        print('Question: ' + str(number_one) + ' ' + op + ' ' + str(number_two))
         if op == '+':
             cor_ans = str(number_one + number_two)
         elif op == '-':
